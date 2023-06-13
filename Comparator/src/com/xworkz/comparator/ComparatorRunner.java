@@ -69,8 +69,11 @@ public class ComparatorRunner {
 			
 		};
 		
+//		Collections.sort(lstt);//printing comparable
+//		System.out.println(lstt);
+		
 		Collections.sort(lstt,cmd);
-		System.out.println(lstt);
+		System.out.println(lstt);//printing comparator
 		
 	}
 		
